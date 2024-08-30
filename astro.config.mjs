@@ -11,4 +11,5 @@ export default defineConfig({
   integrations: [
     vue({ appEntrypoint: '/src/app/app' }),
   ],
+  server: { port: 1234, host: true}
 });
