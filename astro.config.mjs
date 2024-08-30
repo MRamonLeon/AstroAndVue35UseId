@@ -1,9 +1,6 @@
 import { defineConfig } from 'astro/config';
-
-import { dirname, resolve } from 'node:path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import nodejs from '@astrojs/node';
+import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({

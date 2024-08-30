@@ -1,3 +1,6 @@
+# Purpose
+Testing the new Vue 3.5 `useId` method in different Astro islands.
+
 # Astro Starter Kit: Basics
 
 ```sh

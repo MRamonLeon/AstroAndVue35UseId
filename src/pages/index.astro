@@ -1,19 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import MyComponent from "../vue-components/MyComponent.vue"
+import ListOfMyComponents from "../vue-components/ListOfMyComponents.vue"
+
 ---
 
 <Layout title="Vue useId in Astro">
+	<p>Different island:</p>
 	<main>
-	<Card>
-	<Card>
-	<Card>
-	<Card>
+		<MyComponent client:load />
+		<MyComponent client:load />
+		<MyComponent client:load />
+		<MyComponent client:load />
+	</main>
+	<p>Same island:</p>
+	<main>
+		<ListOfMyComponents />
 	</main>
 </Layout>
 
 <style>
-	body {
-		margin: 0;
-	}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 </style>
