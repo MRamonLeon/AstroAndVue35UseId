@@ -1,0 +1,33 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.15.1",
+    "@astrojs/node": "8.2.5",
+    "@astrojs/ts-plugin": "1.7.0",
+    "@astrojs/vue": "4.2.0",
+    "@vue/compiler-sfc": "3.4.27",
+    "@vue/server-renderer": "3.4.30",
+    "@vueuse/components": "10.5.0",
+    "@vueuse/core": "10.5.0",
+    "vue": "vue@3.5.0-rc.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.4",
+    "@types/jsdom": "21.1.6",
+    "@types/node": "20.5.1",
+    "@vitejs/plugin-vue": "5.0.4",
+    "typescript": "5.4.2",
+    "vite": "5.1.7",
+    "vue-tsc": "2.0.7"
+  }
+}
